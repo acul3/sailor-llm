@@ -28,5 +28,5 @@ cp eval/eval_sailor.py opencompass/configs/
 
 # run evaluation
 cd opencompass
-python run.py configs/eval_sailor.py -w outputs/sailor --num-gpus 4 --max-num-workers 64
+python run.py configs/eval_sailor_id.py -w outputs/sailor --num-gpus 1 --max-num-workers 64
 
