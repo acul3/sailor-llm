@@ -24,7 +24,7 @@ echo "from .tydiqa_id import *  # noqa: F401, F403" >> "opencompass/opencompass/
 echo "from .xcopa_sea import *  # noqa: F401, F403" >> "opencompass/opencompass/datasets/__init__.py"
 echo "from .m3exam import *  # noqa: F401, F403" >> "opencompass/opencompass/datasets/__init__.py"
 echo "from .belebele import *  # noqa: F401, F403" >> "opencompass/opencompass/datasets/__init__.py"
-cp eval/eval_sailor.py opencompass/configs/
+cp eval/eval_sailor_id.py opencompass/configs/
 
 # run evaluation
 cd opencompass
